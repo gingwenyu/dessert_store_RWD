@@ -1,0 +1,606 @@
+
+@import "mixins";
+@import "variable";
+
+.container{
+    max-width:1024px;
+    height:auto;
+    margin:0 auto;
+    background-color:$light;
+
+    .nav{
+      position: relative;
+      max-width:1024px;
+      height:100px;
+
+        .logo{
+            position:absolute;
+            top:30px;
+            left:42px;
+        }
+        .home{
+            font-family:$font-family-sans-serif;
+            font-size: $font4;
+            color:$dark2;
+            position:absolute;
+            left: 663px;
+            top: 40px;
+        }
+        .dessert{
+            font-family:$font-family-sans-serif;
+            font-size: $font4;
+            color:$dark2;
+            position:absolute;
+            left: 755px;
+            top: 40px;
+        }
+        .login{
+            font-family:$font-family-sans-serif;
+            font-size: $font4;
+            color:$dark2;
+            position:absolute;
+            left: 847px;
+            top: 40px;
+        }
+        .cart{
+            color: $dark2;
+            position:absolute;
+            left: 958px;
+            top:  39px;
+        }
+    }
+    .box{
+
+      .main{
+            position:relative;
+            left: 42px;
+            top: 0px;
+      }
+      .titlebox{
+            width:779.01px;
+            height:256px;
+            position:relative;
+            left: 123px;
+            right: 122px;
+            top: -89px;
+            bottom: 0px;
+
+          .title1{
+            width:259.67px;
+            height:256px;
+            background-color:$brightopa;
+            float:left;
+            border:1px solid white;
+            position: absolute;
+            top:0px;
+            left: 0px;
+            z-index: 2;
+
+        /*    img{
+              background-image:url('https://bit.ly/2R5tqwD');
+              filter: blur(5px);
+              width:100%;
+              height:100%;
+              position: absolute;
+              top:0px;
+              left: 0px;
+              z-index: -1;
+               }
+        */
+            p{
+              font-size: $font6;
+              font-family:$font-family-sans-serif;
+              color:$dark2;
+              writing-mode: vertical-lr;
+              margin:0;
+              position: relative;
+              top:62.98px;
+              right:115.29px;
+              bottom:57.65px;
+              left:119.46px;
+             }
+          }
+          .title2{
+            width:259.67px;
+            height:256px;
+            background-color:$dark2opa;
+            float:left;
+            border:1px solid white;
+            position: absolute;
+            top:0px;
+            left: 259.67px;
+            z-index: 2;
+
+        /*    img{
+              background-image:url('https://bit.ly/2Dwoxd7');
+              filter: blur(5px);
+              width:100%;
+              height:100%;
+              position: absolute;
+              top:0px;
+              left: 259.67px;
+              z-index: -1;
+              }
+      */
+            p{
+              font-size: $font6;
+              font-family:$font-family-sans-serif;
+              color:$light;
+              writing-mode: vertical-lr;
+              margin:0;
+              position: relative;
+              top:62.98px;
+              right:120.29px;
+              bottom:57.65px;
+              left:119.46px;
+             }
+
+            }
+          .title3{
+            width:259.67px;
+            height:256px;
+            background-color:$dark2opa;
+            float:left;
+            border:1px solid white;
+            position: absolute;
+            top:0px;
+            left: 519.34px;
+            z-index: 2;
+
+     /*      img{
+              background-image:url('https://bit.ly/2OUteif');
+              filter: blur(5px);
+              width:100%;
+              height:100%;
+              position: absolute;
+              top:0px;
+              left: 519.34px;
+              z-index: -1;
+              }
+*/
+            p{
+              font-size: $font6;
+              font-family:$font-family-sans-serif;
+              color:$light;
+              writing-mode: vertical-lr;
+              margin:0;
+              position: relative;
+              top:62.98px;
+              right:119.46px;
+              bottom:57.65px;
+              left:120.29px;
+            }
+
+          }
+      }
+
+      .why1{
+            background-color:$light2 ;
+            max-width:1024px ;
+            height:420px;
+            position:relative;
+            top: 0px;
+            left:0px;
+
+            .food1{
+                position:absolute;
+                top: -20px;
+                left: 42px;
+            }
+            .pbox{
+                width:256px;
+                height:279.97px;
+                margin:0px;
+                position:absolute;
+                right: 211px;
+                left: 557px;
+                top:  70px;
+                p{
+                  writing-mode: vertical-rl;
+                  font-size: $font4;
+                  color:$dark;
+                  float:right;
+                  line-height: 4px;
+                }
+            }
+            .txt{
+                position:absolute;
+                top: -20px;
+                right: 42.06px;
+            }
+
+      }
+      .why2{
+            background-color:$light2 ;
+            max-width:1024px ;
+            height:420px;
+            position:relative;
+            top: 105px;
+            left:0px;
+            bottom: 0px;
+
+            .food2{
+                position:absolute;
+                top: -20px;
+                right: 42px;
+            }
+            .pbox{
+                width:256px;
+                height:279.97px;
+                margin:0px;
+                position:absolute;
+                right: 80.53px;
+                left: 55.5px;
+                top:  65px;
+                p{
+                  writing-mode: vertical-rl;
+                  font-size: $font4;
+                  color:$dark;
+                  float:right;
+                  line-height: 4px;
+                  }
+            }
+            .txt{
+                position:absolute;
+                top: -20px;
+                left: 391.5px;
+            }
+
+      }
+      .answer{
+            position:relative;
+            top:200px;    //need to fix
+            left:483px;
+            padding-bottom: 275.44px;   //need to fix
+      }
+      .buy{
+            width:940px;
+            height:434px;
+            position:relative;
+            top:0px;
+            left:42px;
+
+
+        .buy1{
+           width:300px;
+           height:434px;
+           position:relative;
+           float: left;
+
+            img{
+              position:absolute;
+              top:0px;
+              left:0px;
+              float: left;
+            }
+            .price{
+              width:300px;
+              height:56px;
+              position:absolute;
+              top:315px;
+              left: 0px;
+              background-color: $light;
+
+              p{margin:0;
+                position:relative;
+                top:14px;
+                left: 33px;
+                font-size: $font5;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+
+              }
+            }
+            .add{
+              width:300px;
+              height:65px;
+              position:absolute;
+              top:371px;
+              left: 0px;
+              background-color: $light2;
+
+              p{margin:0;
+                position:relative;
+                top:16px;
+                left: 90px;
+                font-size: $font6;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+              }
+            }
+            .tag{
+              width:36px;
+              height:106.73px;
+              background-color:$dark2;
+              position:relative;
+              top:0px;
+              left:20px;
+              z-index:3;
+
+              p{margin:0;
+                color:$light;
+                writing-mode: vertical-lr;
+                position:absolute;
+                left: 8px;
+                right:8px;
+                top:10.08px;
+                font-size: $font4;
+                font-family:$font-family-sans-serif;
+                letter-spacing: 5px;
+              }
+
+            }
+            .heart{
+              font-size: $font7;
+              color:$dark2;
+              position:absolute;
+              top:19px;
+              left: 258px;
+              z-index:3;
+            }
+        }
+
+        .buy2{
+           width:300px;
+           height:434px;
+           position:relative;
+           float: left;
+           left:20px;
+           padding-right: 20px;
+
+            img{
+              position:relative;
+              top:0px;
+            }
+            .price{
+              width:300px;
+              height:56px;
+              position:absolute;
+              top:315px;
+              left: 0px;
+              background-color: $light;
+
+              p{margin:0;
+                position:relative;
+                top:14px;
+                left: 33px;
+                font-size: $font5;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+
+              }
+            }
+            .add{
+              width:300px;
+              height:65px;
+              position:absolute;
+              top:371px;
+              left: 0px;
+              background-color: $light2;
+
+              p{margin:0;
+                position:relative;
+                top:16px;
+                left: 90px;
+                font-size: $font6;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+              }
+            }
+            .tag{
+              width:36px;
+              height:106.73px;
+              background-color:$dark2;
+              position:absolute;
+              top:0px;
+              left:20px;
+              z-index:3;
+
+              p{margin:0;
+                color:$light;
+                writing-mode: vertical-lr;
+                position:absolute;
+                left: 8px;
+                right:8px;
+                top:10.08px;
+                font-size: $font4;
+                font-family:$font-family-sans-serif;
+                letter-spacing: 5px;
+              }
+
+            }
+            .heart{
+              font-size: $font7;
+              color:$dark2;
+              position:absolute;
+              top:19px;
+              left: 258px;
+              z-index:3;
+            }
+        }
+
+        .buy3{
+           width:300px;
+           height:434px;
+           position:relative;
+           float:left;
+           left: 20px;
+           //margin-left: 20px;   //need to fix
+
+            img{
+              position:relative;
+              top:0px;
+            }
+            .price{
+              width:300px;
+              height:56px;
+              position:absolute;
+              top:315px;
+              left: 0px;
+              background-color: $light;
+
+              p{margin:0;
+                position:relative;
+                top:14px;
+                left: 33px;
+                font-size: $font5;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+              }
+            }
+            .add{
+              width:300px;
+              height:65px;
+              position:absolute;
+              top:371px;
+              left: 0px;
+              background-color: $light2;
+
+              p{margin:0;
+                position:relative;
+                top:16px;
+                left: 90px;
+                font-size: $font6;
+                color:$dark2;
+                font-family:$font-family-sans-serif;
+              }
+            }
+            .tag{
+              width:36px;
+              height:106.73px;
+              background-color:$dark2;
+              position:absolute;
+              top:0px;
+              left:20px;
+              z-index:3;
+
+              p{margin:0;
+                color:$light;
+                writing-mode: vertical-lr;
+                position:absolute;
+                left: 8px;
+                right:8px;
+                top:10.08px;
+                font-size: $font4;
+                font-family:$font-family-sans-serif;
+                letter-spacing: 5px;
+              }
+
+            }
+            .heart{
+              font-size: $font7;
+              color:$dark2;
+              position:absolute;
+              top:19px;
+              left: 258px;
+              z-index:3;
+            }
+        }
+
+      }
+    }
+      .footer{
+        max-width:1024px;
+        height:457px;
+        position: relative;
+        top:60px;
+        left:0px;
+
+        .mailbar{
+          max-width:1024px;
+          height:116px;
+          position:relative;
+          top:0px;
+          left:0px;
+          background-color: $dark2;
+          img{
+            position:absolute;
+            top:38px;
+            left:122px;
+            filter: invert(50%);
+
+          }
+          p{
+            position:absolute;
+            margin: 0;
+            top:42px;
+            left:182px;
+            bottom: 41px;
+            color: $light;
+            float: left;
+            font-size: $font6;
+            font-family: $font-family-sans-serif;
+
+          }
+          .mail{
+            width:380px;
+            height:56px;
+            background-color: $light2;
+            position:absolute;
+            top:30px;
+            left:522px;
+              div{
+                width:64px;
+                height:56px;
+                background-color: $bright;
+                position:relative;
+                top:0px;
+                left:316px;
+              }
+
+          }
+        }
+        .foot{
+          max-width:1024px;
+          height:341px;
+          position:relative;
+          top:0px;
+          left:0px;
+          background-color: $light2;
+            img{
+              position:absolute;
+              top:38.9px;
+              left:122.07px;
+            }
+            p{position:absolute;
+              top:181px;
+              left:122px;
+              font-size: $font4;
+              font-family: $font-family-sans-serif;
+              color:$dark2;
+
+            }
+            .lineat{
+              position:absolute;
+              top:279px;
+              left:122px;
+              color:$dark2;
+            }
+            .fb{
+              position:absolute;
+              top:279px;
+              left:162px;
+              color:$dark2;
+            }
+            .txt{
+              position:absolute;
+              top:30px;
+              left:843px;
+              color:$dark2;
+
+            }
+            .copyright{
+              margin: 0px;
+              position:absolute;
+              top:295px;
+              left:644px;
+              color:$dark2;
+              font-size: $font4;
+
+            }
+        }
+
+      }
+
+
+}
