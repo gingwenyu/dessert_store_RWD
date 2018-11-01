@@ -1,8 +1,10 @@
 
 @import "mixins";
 @import "variable";
+@import "layout";
 
 .container{
+/*
     max-width:1024px;
     height:auto;
     margin:0 auto;
@@ -48,7 +50,7 @@
             left: 958px;
             top:  39px;
         }
-    }
+    }  */
     .box{
 
       .main{
@@ -331,7 +333,6 @@
 
             }
             .heart{
-              font-size: $font7;
               color:$dark2;
               position:absolute;
               top:19px;
@@ -410,7 +411,6 @@
 
             }
             .heart{
-              font-size: $font7;
               color:$dark2;
               position:absolute;
               top:19px;
@@ -488,7 +488,6 @@
 
             }
             .heart{
-              font-size: $font7;
               color:$dark2;
               position:absolute;
               top:19px;
@@ -499,6 +498,8 @@
 
       }
     }
+
+    /*
       .footer{
         max-width:1024px;
         height:457px;
@@ -517,8 +518,6 @@
             position:absolute;
             top:38px;
             left:122px;
-            filter: invert(50%);
-
           }
           p{
             position:absolute;
@@ -539,13 +538,25 @@
             position:absolute;
             top:30px;
             left:522px;
+
+              .email{
+                position:relative;
+                top:16px;
+                left:20px;
+              }
               div{
                 width:64px;
                 height:56px;
                 background-color: $bright;
-                position:relative;
+                position:absolute;
                 top:0px;
                 left:316px;
+
+                .arrow{
+                  position:absolute;
+                  top:20px;
+                  left:24px;
+                }
               }
 
           }
@@ -600,7 +611,7 @@
             }
         }
 
-      }
+      }  */
 
 
 }

@@ -1,0 +1,374 @@
+/*
+@mixin pc{
+  @media(max-width:1024px){
+    @content
+  }
+}
+*/
+/*
+@mixin pc{
+  @media(max-width:1024px){
+    @content
+  }
+}
+*/
+.container {
+  max-width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #FFFFFF; }
+  .container .nav {
+    position: relative;
+    max-width: 1024px;
+    height: 100px; }
+    .container .nav .logo {
+      position: absolute;
+      top: 30px;
+      left: 42px; }
+    .container .nav .home {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 16px;
+      color: #3F5D45;
+      position: absolute;
+      left: 663px;
+      top: 40px; }
+    .container .nav .dessert {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 16px;
+      color: #3F5D45;
+      position: absolute;
+      left: 755px;
+      top: 40px; }
+    .container .nav .login {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-size: 16px;
+      color: #3F5D45;
+      position: absolute;
+      left: 847px;
+      top: 40px; }
+    .container .nav .cart {
+      color: #3F5D45;
+      position: absolute;
+      left: 958px;
+      top: 39px; }
+  .container .footer {
+    max-width: 1024px;
+    height: 457px;
+    position: relative;
+    top: 60px;
+    left: 0px; }
+    .container .footer .mailbar {
+      max-width: 1024px;
+      height: 116px;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      background-color: #3F5D45; }
+      .container .footer .mailbar img {
+        position: absolute;
+        top: 38px;
+        left: 122px; }
+      .container .footer .mailbar p {
+        position: absolute;
+        margin: 0;
+        top: 42px;
+        left: 182px;
+        bottom: 41px;
+        color: #FFFFFF;
+        float: left;
+        font-size: 24px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+      .container .footer .mailbar .mail {
+        width: 380px;
+        height: 56px;
+        background-color: #EAF0ED;
+        position: absolute;
+        top: 30px;
+        left: 522px; }
+        .container .footer .mailbar .mail .email {
+          position: relative;
+          top: 16px;
+          left: 20px; }
+        .container .footer .mailbar .mail div {
+          width: 64px;
+          height: 56px;
+          background-color: #FFE180;
+          position: absolute;
+          top: 0px;
+          left: 316px; }
+          .container .footer .mailbar .mail div .arrow {
+            position: absolute;
+            top: 20px;
+            left: 24px; }
+    .container .footer .foot {
+      max-width: 1024px;
+      height: 341px;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      background-color: #EAF0ED; }
+      .container .footer .foot img {
+        position: absolute;
+        top: 38.9px;
+        left: 122.07px; }
+      .container .footer .foot p {
+        position: absolute;
+        top: 181px;
+        left: 122px;
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #3F5D45; }
+      .container .footer .foot .lineat {
+        position: absolute;
+        top: 279px;
+        left: 122px;
+        color: #3F5D45; }
+      .container .footer .foot .fb {
+        position: absolute;
+        top: 279px;
+        left: 162px;
+        color: #3F5D45; }
+      .container .footer .foot .txt {
+        position: absolute;
+        top: 30px;
+        left: 843px;
+        color: #3F5D45; }
+      .container .footer .foot .copyright {
+        margin: 0px;
+        position: absolute;
+        top: 295px;
+        left: 644px;
+        color: #3F5D45;
+        font-size: 16px; }
+
+.container .box {
+  max-width: 1024px;
+  height: auto; }
+  .container .box .main img {
+    position: relative;
+    left: 42px;
+    top: 0px; }
+  .container .box ul {
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    height: 325px;
+    position: relative;
+    left: 42px;
+    top: 60px; }
+    .container .box ul > li {
+      list-style: none;
+      width: 298px;
+      height: 63px;
+      border: 1px solid #EAF0ED; }
+      .container .box ul > li > p {
+        margin: 0;
+        font-size: 24px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+    .container .box ul li:nth-child(1) {
+      background-color: #3F5D45;
+      position: absolute;
+      left: 0px;
+      top: 0px; }
+      .container .box ul li:nth-child(1) p {
+        color: #FFFFFF;
+        position: relative;
+        top: 16px;
+        left: 102px; }
+    .container .box ul li:nth-child(2) {
+      background-color: #EAF0ED;
+      position: absolute;
+      left: 0px;
+      top: 65px; }
+      .container .box ul li:nth-child(2) p {
+        color: #3F5D45;
+        position: relative;
+        top: 16px;
+        left: 64px; }
+    .container .box ul li:nth-child(3) {
+      background-color: #FFFFFF;
+      position: absolute;
+      left: 0px;
+      top: 130px; }
+      .container .box ul li:nth-child(3) p {
+        color: #3F5D45;
+        position: relative;
+        top: 16px;
+        left: 66px; }
+    .container .box ul li:nth-child(4) {
+      background-color: #FFFFFF;
+      position: absolute;
+      left: 0px;
+      top: 195px; }
+      .container .box ul li:nth-child(4) p {
+        color: #3F5D45;
+        position: relative;
+        top: 16px;
+        left: 64px; }
+    .container .box ul li:nth-child(5) {
+      background-color: #FFFFFF;
+      position: absolute;
+      left: 0px;
+      top: 260px; }
+      .container .box ul li:nth-child(5) p {
+        color: #3F5D45;
+        position: relative;
+        top: 16px;
+        left: 66px; }
+  .container .box .buy {
+    width: 620px;
+    min-height: 100vh;
+    position: relative;
+    top: -265px;
+    left: 362px;
+    z-index: 2;
+    padding-bottom: 60px; }
+    .container .box .buy > .buy1, .container .box .buy .buy2, .container .box .buy .buy3, .container .box .buy .buy4, .container .box .buy .buy5, .container .box .buy .buy6 {
+      width: 300px;
+      height: 434px;
+      position: relative;
+      float: left; }
+      .container .box .buy > .buy1 > .price, .container .box .buy .buy2 > .price, .container .box .buy .buy3 > .price, .container .box .buy .buy4 > .price, .container .box .buy .buy5 > .price, .container .box .buy .buy6 > .price {
+        width: 300px;
+        height: 56px;
+        position: absolute;
+        top: 315px;
+        left: 0px;
+        background-color: #FFFFFF; }
+        .container .box .buy > .buy1 > .price > p, .container .box .buy .buy2 > .price > p, .container .box .buy .buy3 > .price > p, .container .box .buy .buy4 > .price > p, .container .box .buy .buy5 > .price > p, .container .box .buy .buy6 > .price > p {
+          margin: 0;
+          position: relative;
+          top: 14px;
+          left: 33px;
+          font-size: 20px;
+          color: #3F5D45;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+      .container .box .buy > .buy1 > .add, .container .box .buy .buy2 > .add, .container .box .buy .buy3 > .add, .container .box .buy .buy4 > .add, .container .box .buy .buy5 > .add, .container .box .buy .buy6 > .add {
+        width: 300px;
+        height: 65px;
+        position: absolute;
+        top: 371px;
+        left: 0px;
+        background-color: #EAF0ED; }
+        .container .box .buy > .buy1 > .add > p, .container .box .buy .buy2 > .add > p, .container .box .buy .buy3 > .add > p, .container .box .buy .buy4 > .add > p, .container .box .buy .buy5 > .add > p, .container .box .buy .buy6 > .add > p {
+          margin: 0;
+          position: relative;
+          top: 16px;
+          left: 90px;
+          font-size: 24px;
+          color: #3F5D45;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+      .container .box .buy > .buy1 > .tag, .container .box .buy .buy2 > .tag, .container .box .buy .buy3 > .tag, .container .box .buy .buy4 > .tag, .container .box .buy .buy5 > .tag, .container .box .buy .buy6 > .tag {
+        width: 36px;
+        height: 106.73px;
+        background-color: #3F5D45;
+        position: relative;
+        top: 0px;
+        left: 20px;
+        z-index: 3; }
+        .container .box .buy > .buy1 > .tag > p, .container .box .buy .buy2 > .tag > p, .container .box .buy .buy3 > .tag > p, .container .box .buy .buy4 > .tag > p, .container .box .buy .buy5 > .tag > p, .container .box .buy .buy6 > .tag > p {
+          margin: 0;
+          color: #FFFFFF;
+          -webkit-writing-mode: vertical-lr;
+          -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+          position: absolute;
+          left: 8px;
+          right: 8px;
+          top: 10.08px;
+          font-size: 16px;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+          letter-spacing: 5px; }
+      .container .box .buy > .buy1 > .heart, .container .box .buy .buy2 > .heart, .container .box .buy .buy3 > .heart, .container .box .buy .buy4 > .heart, .container .box .buy .buy5 > .heart, .container .box .buy .buy6 > .heart {
+        color: #3F5D45;
+        position: absolute;
+        top: 19px;
+        left: 258px;
+        z-index: 3; }
+    .container .box .buy .buy1 img {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      float: left; }
+
+.container .buy2 {
+  position: absolute;
+  left: 20px;
+  padding-right: 20px; }
+  .container .buy2 img {
+    position: absolute;
+    top: 0px; }
+
+.container .buy3 {
+  position: absolute;
+  top: 20px; }
+  .container .buy3 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left; }
+
+.container .buy4 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding-right: 20px; }
+  .container .buy4 img {
+    position: absolute;
+    top: 0px; }
+
+.container .buy5 {
+  position: absolute;
+  top: 20px; }
+  .container .buy5 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: left; }
+
+.container .buy6 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding-right: 20px; }
+  .container .buy6 img {
+    position: absolute;
+    top: 0px; }
+
+.container .pagebar {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  top: 30px;
+  left: 686px;
+  bottom: 60px;
+  float: left; }
+  .container .pagebar > div {
+    width: 58px;
+    height: 58px;
+    border: 1px solid #EAF0ED; }
+  .container .pagebar div:nth-child(1) {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+  .container .pagebar div:nth-child(2) {
+    background-color: #3F5D45;
+    position: absolute;
+    top: 0px;
+    left: 60px; }
+  .container .pagebar div:nth-child(3) {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 120px; }
+  .container .pagebar div:nth-child(4) {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 180px; }
+  .container .pagebar div:nth-child(5) {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 240px; }

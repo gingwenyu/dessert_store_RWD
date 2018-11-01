@@ -1,0 +1,302 @@
+
+@import "mixins";
+@import "variable";
+@import "layout";
+
+.container{
+
+    .box{
+      max-width:1024px;
+      height:auto;
+
+      .main img{
+            position:relative;
+            left: 42px;
+            top: 0px;
+      }
+
+      ul{
+        margin:0;
+        padding: 0;
+        width:300px;
+        height:325px;
+        position:relative;
+        left: 42px;
+        top: 60px;
+
+        >li{
+          list-style:none;
+          width:298px;
+          height:63px;
+          border:1px solid $light2;
+          >p{
+            margin:0;
+            font-size: $font6;
+            font-family:$font-family-sans-serif;
+          }
+        }
+
+        li:nth-child(1){
+          background-color: $dark2;
+          position:absolute;
+          left: 0px;
+          top: 0px;
+          p{
+            color:$light;
+            position: relative;
+            top:16px;
+            left:102px;
+          }
+        }
+
+        li:nth-child(2){
+          background-color: $light2;
+          position:absolute;
+          left: 0px;
+          top: 65px;
+          p{
+            color:$dark2;
+            position: relative;
+            top:16px;
+            left:64px;
+          }
+        }
+
+        li:nth-child(3){
+          background-color: $light;
+          position:absolute;
+          left: 0px;
+          top: 130px;
+          p{
+            color:$dark2;
+            position: relative;
+            top:16px;
+            left:66px;
+          }
+        }
+
+        li:nth-child(4){
+          background-color: $light;
+          position:absolute;
+          left: 0px;
+          top: 195px;
+          p{
+            color:$dark2;
+            position: relative;
+            top:16px;
+            left:64px;
+          }
+        }
+
+        li:nth-child(5){
+          background-color: $light;
+          position:absolute;
+          left: 0px;
+          top: 260px;
+          p{
+            color:$dark2;
+            position: relative;
+            top:16px;
+            left:66px;
+          }
+        }
+
+      }
+
+      .buy{
+            width:620px;
+            min-height: 100vh;
+            position:relative;
+            top:-265px;    //need to fix
+            left:362px;
+            z-index: 2;
+            padding-bottom: 60px;
+
+      //      float:left;
+
+        >.buy1,.buy2,.buy3,.buy4,.buy5,.buy6{
+          width:300px;
+          height:434px;
+          position:relative;
+          float: left;
+
+          >.price{
+            width:300px;
+            height:56px;
+            position:absolute;
+            top:315px;
+            left: 0px;
+            background-color: $light;
+
+            >p{margin:0;
+              position:relative;
+              top:14px;
+              left: 33px;
+              font-size: $font5;
+              color:$dark2;
+              font-family:$font-family-sans-serif;
+            }
+          }
+          >.add{
+            width:300px;
+            height:65px;
+            position:absolute;
+            top:371px;
+            left: 0px;
+            background-color: $light2;
+
+            >p{margin:0;
+              position:relative;
+              top:16px;
+              left: 90px;
+              font-size: $font6;
+              color:$dark2;
+              font-family:$font-family-sans-serif;
+            }
+          }
+          >.tag{
+            width:36px;
+            height:106.73px;
+            background-color:$dark2;
+            position:relative;
+            top:0px;
+            left:20px;
+            z-index:3;
+
+            >p{margin:0;
+              color:$light;
+              writing-mode: vertical-lr;
+              position:absolute;
+              left: 8px;
+              right:8px;
+              top:10.08px;
+              font-size: $font4;
+              font-family:$font-family-sans-serif;
+              letter-spacing: 5px;
+            }
+          }
+          >.heart{
+            color:$dark2;
+            position:absolute;
+            top:19px;
+            left: 258px;
+            z-index:3;
+          }
+
+        }
+        .buy1{
+            img{
+              position:absolute;
+              top:0px;
+              left:0px;
+              float: left;
+            }
+        }
+           }
+
+        }
+        .buy2{
+           position:absolute;
+           left:20px;
+           padding-right: 20px;
+            img{
+              position:absolute;
+              top:0px;
+            }
+        }
+        .buy3{
+            position:absolute;
+            top:20px;
+            img{
+              position:absolute;
+              top:0px;
+              left:0px;
+              float: left;
+            }
+        }
+        .buy4{
+           position:absolute;
+           top:20px;
+           left:20px;
+           padding-right: 20px;
+            img{
+              position:absolute;
+              top:0px;
+            }
+        }
+
+        .buy5{
+            position:absolute;
+            top:20px;
+            img{
+              position:absolute;
+              top:0px;
+              left:0px;
+              float: left;
+            }
+        }
+        .buy6{
+           position:absolute;
+           top:20px;
+           left:20px;
+           padding-right: 20px;
+            img{
+              position:absolute;
+              top:0px;
+            }
+        }
+
+        .pagebar{
+          width:300px;
+          height:60px;
+          position: relative;
+          top:30px;
+          left:686px;
+          bottom: 60px;
+          float: left;
+          
+
+          >div{
+            width:58px;
+            height:58px;
+            border: 1px solid $light2;
+          }
+
+          div:nth-child(1){
+            background-color: $light;
+            position: absolute;
+            top:0px;
+            left:0px;
+          }
+          div:nth-child(2){
+            background-color: $dark2;
+            position: absolute;
+            top:0px;
+            left:60px;
+          }
+          div:nth-child(3){
+            background-color: $light;
+            position: absolute;
+            top:0px;
+            left:120px;
+          }
+          div:nth-child(4){
+            background-color: $light;
+            position: absolute;
+            top:0px;
+            left:180px;
+          }
+          div:nth-child(5){
+            background-color: $light;
+            position: absolute;
+            top:0px;
+            left:240px;
+          }
+
+
+        }
+
+
+
+
+}
