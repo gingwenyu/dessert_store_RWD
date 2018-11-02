@@ -13,6 +13,7 @@
         position:relative;
         top:30px;
         left:122px;
+        margin-bottom: 30px;
         background-color: $dark2;
           h1{
             margin: 0px;
@@ -30,9 +31,28 @@
             top:130px;
             left:30px;
             background-color: $light2;
-            color:$dark;
-            font-size: $font4;
-            font-family: $font-family-sans-serif;
+
+                img{
+                  position:relative;
+                  top:5px;
+                  left:20px;
+                  margin-right: 20px;
+
+                }
+                input{
+                  width:266px;
+                  height:56px;
+                  position:relative;
+                  top:0px;
+                  left:20px;
+                  background-color: inherit;
+                  border: 0px;
+                  padding: 0px;
+                  color:$dark;
+                  font-size: $font4;
+                  font-family: $font-family-sans-serif;
+                }
+
           }
           .password{
             width:330px;
@@ -41,9 +61,24 @@
             top:202px;
             left:30px;
             background-color: $light2;
-            color:$dark;
-            font-size: $font4;
-            font-family: $font-family-sans-serif;
+              img{
+                position:relative;
+                left:21px;
+                margin-right: 21px;
+              }
+              input{
+                width: 266px;
+                height: 56px;
+                border: 0px;
+                padding: 0px;
+                position: relative;
+                top: 0px;
+                left: 21px;
+                background-color: inherit;
+                color:$dark;
+                font-size: $font4;
+                font-family: $font-family-sans-serif;
+              }
           }
           label{
             position:absolute;

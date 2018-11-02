@@ -15,14 +15,24 @@
             top: 0px;
       }
 
+      .medium{
+        width:940px;
+        height: 100vh;
+        position:relative;
+        left: 42px;
+        top: 60px;
+        background-color: yellow;
+      }
+
+
       ul{
         margin:0;
         padding: 0;
         width:300px;
         height:325px;
         position:relative;
-        left: 42px;
-        top: 60px;
+        left: 0px;
+        top: 0px;
 
         >li{
           list-style:none;
@@ -106,13 +116,12 @@
       .buy{
             width:620px;
             min-height: 100vh;
-            position:relative;
-            top:-265px;    //need to fix
-            left:362px;
+            position:absolute;
+            top:0px;
+            right: 0px;
             z-index: 2;
             padding-bottom: 60px;
-
-      //      float:left;
+            float: right;
 
         >.buy1,.buy2,.buy3,.buy4,.buy5,.buy6{
           width:300px;
@@ -254,7 +263,7 @@
           left:686px;
           bottom: 60px;
           float: left;
-          
+
 
           >div{
             width:58px;

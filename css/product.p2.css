@@ -148,14 +148,21 @@
     position: relative;
     left: 42px;
     top: 0px; }
+  .container .box .medium {
+    width: 940px;
+    height: 100vh;
+    position: relative;
+    left: 42px;
+    top: 60px;
+    background-color: yellow; }
   .container .box ul {
     margin: 0;
     padding: 0;
     width: 300px;
     height: 325px;
     position: relative;
-    left: 42px;
-    top: 60px; }
+    left: 0px;
+    top: 0px; }
     .container .box ul > li {
       list-style: none;
       width: 298px;
@@ -218,11 +225,12 @@
   .container .box .buy {
     width: 620px;
     min-height: 100vh;
-    position: relative;
-    top: -265px;
-    left: 362px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
     z-index: 2;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+    float: right; }
     .container .box .buy > .buy1, .container .box .buy .buy2, .container .box .buy .buy3, .container .box .buy .buy4, .container .box .buy .buy5, .container .box .buy .buy6 {
       width: 300px;
       height: 434px;

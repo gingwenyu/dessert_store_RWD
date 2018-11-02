@@ -141,134 +141,34 @@
         color: #3F5D45;
         font-size: 16px; }
 
-.container .box .loginbox {
-  width: 390px;
-  height: 380px;
+.container .box .main {
   position: relative;
-  top: 30px;
-  left: 122px;
-  margin-bottom: 30px;
-  background-color: #3F5D45; }
-  .container .box .loginbox h1 {
+  left: 42px;
+  top: 0px; }
+  .container .box .main .bar {
+    width: 190px;
+    height: 24px;
+    position: absolute;
+    left: 375px;
+    top: 128px; }
+  .container .box .main h1 {
     margin: 0px;
     position: absolute;
-    top: 40px;
-    left: 121px;
-    color: #FFFFFF;
-    font-size: 36px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-  .container .box .loginbox .account {
-    width: 330px;
-    height: 56px;
-    position: absolute;
-    top: 130px;
-    left: 30px;
-    background-color: #EAF0ED; }
-    .container .box .loginbox .account img {
-      position: relative;
-      top: 5px;
-      left: 20px;
-      margin-right: 20px; }
-    .container .box .loginbox .account input {
-      width: 266px;
-      height: 56px;
-      position: relative;
-      top: 0px;
-      left: 20px;
-      background-color: inherit;
-      border: 0px;
-      padding: 0px;
-      color: #8DA291;
-      font-size: 16px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-  .container .box .loginbox .password {
-    width: 330px;
-    height: 56px;
-    position: absolute;
-    top: 202px;
-    left: 30px;
-    background-color: #EAF0ED; }
-    .container .box .loginbox .password img {
-      position: relative;
-      left: 21px;
-      margin-right: 21px; }
-    .container .box .loginbox .password input {
-      width: 266px;
-      height: 56px;
-      border: 0px;
-      padding: 0px;
-      position: relative;
-      top: 0px;
-      left: 21px;
-      background-color: inherit;
-      color: #8DA291;
-      font-size: 16px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-  .container .box .loginbox label {
-    position: absolute;
-    top: 274px;
-    left: 30px;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-  .container .box .loginbox .loginbtn {
-    width: 390px;
-    height: 65px;
-    position: absolute;
-    top: 315px;
-    left: 0px;
-    background-color: #FFE180;
+    left: 374.48px;
+    top: 182.2px;
+    font-size: 47px;
     color: #3F5D45;
+    font-weight: bold; }
+  .container .box .main input {
+    width: 300px;
+    height: 65px;
+    background-color: #FFE180;
+    border: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 320px;
+    top: 279px;
     font-size: 24px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-  .container .box .loginbox .media {
-    width: 390px;
-    height: 350px;
-    position: relative;
-    top: 15px;
-    left: 390px;
-    background-color: #EAF0ED; }
-    .container .box .loginbox .media h2 {
-      margin: 0px;
-      position: absolute;
-      top: 40px;
-      left: 67px;
-      color: #8DA291;
-      font-size: 24px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .box .loginbox .media .fb {
-      margin: 0px;
-      width: 330px;
-      height: 56px;
-      position: absolute;
-      top: 109px;
-      left: 30px;
-      background-color: #FFFFFF; }
-      .container .box .loginbox .media .fb img {
-        position: relative;
-        top: 17.59px;
-        left: 111px; }
-    .container .box .loginbox .media .google {
-      margin: 0px;
-      width: 330px;
-      height: 56px;
-      position: absolute;
-      top: 181px;
-      left: 30px;
-      background-color: #FFFFFF; }
-      .container .box .loginbox .media .google img {
-        position: relative;
-        top: 12.89px;
-        left: 118px; }
-    .container .box .loginbox .media .yahoo {
-      margin: 0px;
-      width: 330px;
-      height: 56px;
-      position: absolute;
-      top: 253px;
-      left: 30px;
-      background-color: #FFFFFF; }
-      .container .box .loginbox .media .yahoo img {
-        position: relative;
-        top: 16.49px;
-        left: 117px; }
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: bold;
+    color: #3F5D45; }
