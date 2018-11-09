@@ -1,0 +1,234 @@
+
+@import "mixins";
+@import "variable";
+@import "layout";
+
+.container{
+
+    .medium{
+      position: relative;
+      width: 780px;
+      height: 582px;
+      top: 30px;
+      left: 122px;
+
+      .transport{
+        position: absolute;
+        width: 460px;
+        height: 577px;
+        top: 0px;
+        left: 0px;
+        background-color: $dark2;
+        h1{
+          margin: 0px;
+          position: absolute;    //need to check  以下
+          top: 30px;
+          left: 40px;
+          color: $light;
+          font-weight: bold;
+          font-size: $font9;
+          font-family: $font-family-sans-serif;
+        }
+        img{
+          position: absolute;
+          top: 49px;
+          left: 234px;
+          float: left;
+        }
+        label{
+          position: absolute;
+          color: $light;
+          font-size: $font5;
+          font-family: $font-family-sans-serif;
+          font-weight: bold;
+          display:block;
+        }
+        .label1{
+          top: 110px;
+          left: 40px;
+        }
+        .label2{
+          top: 110px;
+          left: 234px;
+        }
+        .label3{
+          top: 218px;
+          left: 40px;
+        }
+        .label4{
+          top: 326px;
+          left: 40px;
+        }
+
+        .name1,.name2,.phone,.add,.add2,.add3{
+          position: absolute;
+          width:186px;
+          height:56px;
+          background-color: $light2;
+          border:0px;
+          padding:0px;
+        }
+        .name1{
+          top: 146px;
+          left: 40px;
+        }
+        .name2{
+          top: 146px;
+          left: 234px;
+          float: left;
+        }
+        .phone{
+          width:380px;
+          height:56px;
+          top: 254px;
+          left: 40px;
+        }
+        .add{
+          top: 362px;
+          left: 40px;
+        }
+        .add2{
+          top: 362px;
+          left: 234px;
+          float: left;
+        }
+        .add3{
+          width:380px;
+          height:56px;
+          top: 426px;
+          left: 40px;
+        }
+        ::placeholder {
+          color: $dark;
+          margin-left: 20px;
+          font-family: $font-family-sans-serif;
+        }
+        .btn{
+          position:absolute;
+          width: 460px;
+          height: 65px;
+          top: 512px;
+          left: 0px;
+          background-color: $bright;
+          border: 0px;
+          padding: 0px;
+
+          font-size: $font6;
+          font-family:$font-family-sans-serif;
+          font-weight: bold;
+          color:$dark2;
+        }
+      }
+      .summary{
+        position: absolute;
+        width: 298px;
+        height: 191px;
+        top: 0px;
+        left: 480px;
+        background-color: $light;
+        border:1px solid $light2;
+
+          .sumtitle{
+            position:relative;
+            width: 300px;
+            height: 65px;
+            top: 0px;
+            left: 0px;
+            background-color: $light2;
+              span{
+                position: absolute;
+                top: 16px;
+                left: 100px;
+                font-size: $font6;
+                font-weight: bold;
+                font-family:$font-family-sans-serif;
+                color:$dark;
+              }
+          }
+          >p{
+            position:absolute;
+            margin: 0px;
+            color:$dark;
+            font-family:$font-family-sans-serif;
+          }
+          .p1{
+            top:81px;
+            left:20px;
+            font-size: $font4;
+          }
+          .p2{
+            top:111px;
+            left:20px;
+            font-size: $font4;
+          }
+          .p3{
+            top:149px;
+            left:20px;
+            font-size: $font5;
+            font-weight: bold;
+          }
+
+
+      }
+      .list{
+        position: absolute;
+        width: 298px;
+        height: 367px;
+        top: 213px;
+        left: 480px;
+        background-color: $light;
+        border:1px solid $light2;
+
+          .listitle{
+            position:relative;
+            width: 300px;
+            height: 65px;
+            top: 0px;
+            left: 0px;
+            background-color: $light2;
+              span{
+                position: absolute;
+                top: 16px;
+                left: 100px;
+                font-size: $font6;
+                font-weight: bold;
+                font-family:$font-family-sans-serif;
+                color:$dark;
+              }
+          }
+          .item1,.item2,.item3{
+            position:relative;
+            top: 16px;
+            left: 20px;
+            width:262px;
+            height:80px;
+            margin-bottom: 16px;
+              img{
+                position:absolute;
+                top: 0px;
+                left: 0px;
+              }
+              p{
+                margin: 0px;
+                position:absolute;
+                top: 16px;
+                left: 140px;
+                font-family: $font-family-sans-serif;
+                color:$dark;
+                font-size: $font4;
+                  span{
+                    font-size: $font5;
+                    font-weight: bold;
+                  }
+              }
+          }
+
+
+      }
+    }
+
+    .footer {
+      margin-top: 89px;
+      top: 0px;
+    }
+}
