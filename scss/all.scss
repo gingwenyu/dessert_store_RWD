@@ -5,12 +5,22 @@
 
 .container{
 
-
-
       .main{
+            width:940px;
+            height:496px;
             position:relative;
             left: 42px;
             top: 0px;
+             img{ 
+                background-image: url('https://bit.ly/2OhbMHr');
+                background-size: cover;
+                background-position: center center;
+                width:100%;
+                height:100%;
+                position: absolute;
+                left: 0px;
+                top: 0px; 
+             } 
       }
       .titlebox{
             width:779.01px;
@@ -21,136 +31,124 @@
             top: -89px;
             bottom: 0px;
 
-          .title1{
+          .title1,.title2,.title3{
             width:259.67px;
             height:256px;
-            background-color:$brightopa;
-            float:left;
-            border:1px solid white;
-            position: absolute;
             top:0px;
-            left: 0px;
+            left: 0px; 
+            position: absolute;
+            float:left;
+           // border:1px solid white;
             z-index: 2;
 
-        /*    img{
-              background-image:url('https://bit.ly/2R5tqwD');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
+            >div{
+              width:259.67px;
+              height:256px;
               position: absolute;
-              top:0px;
-              left: 0px;
-              z-index: -1;
-               }
-        */
-            p{
+              float:left;                        
+            }
+
+            >p{
               font-size: $font6;
               font-family:$font-family-sans-serif;
-              color:$dark2;
+              font-weight: 600;
+              letter-spacing: 8px;
               writing-mode: vertical-lr;
               margin:0;
-              position: relative;
-              top:62.98px;
-              right:115.29px;
-              bottom:57.65px;
+              position: absolute;
+            }
+
+            >img{
+              background-size: cover;
+              background-position: center center; 
+              filter: blur(5px);
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              z-index: -1;              
+            }
+
+          }
+
+          .title1{                       
+            border-left:1px solid white; 
+            
+            div{                      
+              background-color:$brightopa;
+              top:0px;
+              left: 0px;           
+            }
+            
+            img{
+              background-image:url('https://bit.ly/2R5tqwD');            
+              top:0px;
+              left: 0px;              
+            }
+        
+            p{
+              color:$dark2;                      
+              top:62.98px;              
               left:119.46px;
              }
           }
-          .title2{
-            width:259.67px;
-            height:256px;
-            background-color:$dark2opa;
-            float:left;
-            border:1px solid white;
-            position: absolute;
-            top:0px;
-            left: 259.67px;
-            z-index: 2;
+          .title2{            
+            border-left:1px solid white; 
+            border-right:1px solid white;           
+              
+            div{                      
+              background-color:$dark2opa; 
+              top:0px;
+              left: 259.67px;          
+            }           
 
-        /*    img{
-              background-image:url('https://bit.ly/2Dwoxd7');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
-              position: absolute;
+            img{
+              background-image:url('https://bit.ly/2Dwoxd7');              
               top:0px;
               left: 259.67px;
-              z-index: -1;
-              }
-      */
-            p{
-              font-size: $font6;
-              font-family:$font-family-sans-serif;
-              color:$light;
-              writing-mode: vertical-lr;
-              margin:0;
-              position: relative;
-              top:62.98px;
-              right:120.29px;
-              bottom:57.65px;
-              left:119.46px;
+            }
+      
+            p{              
+              color:$light;              
+              top:62.98px;              
+              left:377.13px;
              }
 
             }
-          .title3{
-            width:259.67px;
-            height:256px;
-            background-color:$dark2opa;
-            float:left;
-            border:1px solid white;
-            position: absolute;
-            top:0px;
-            left: 519.34px;
-            z-index: 2;
+          .title3{                          
+            border-right:1px solid white;           
+            
+            div{                      
+              background-color:$dark2opa;
+              top:0px;
+              left: 519.34px;           
+            }                      
 
-     /*      img{
-              background-image:url('https://bit.ly/2OUteif');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
-              position: absolute;
+            img{
+              background-image:url('https://bit.ly/2OUteif'); 
+                                                                //再補上旋轉效果
               top:0px;
               left: 519.34px;
-              z-index: -1;
-              }
-*/
-            p{
-              font-size: $font6;
-              font-family:$font-family-sans-serif;
-              color:$light;
-              writing-mode: vertical-lr;
-              margin:0;
-              position: relative;
-              top:62.98px;
-              right:119.46px;
-              bottom:57.65px;
-              left:120.29px;
+            }
+
+            p{              
+              color:$light;              
+              top:62.98px;              
+              left: 636.63px;              
             }
 
           }
       }
-
-      .why1{
+      .why1,.why2{
             background-color:$light2 ;
             max-width:1024px ;
             height:420px;
             position:relative;
-            top: 0px;
-            left:0px;
 
-            .food1{
-                position:absolute;
-                top: -20px;
-                left: 42px;
-            }
-            .pbox{
+            >.pbox{
                 width:256px;
                 height:279.97px;
                 margin:0px;
                 position:absolute;
-                right: 211px;
-                left: 557px;
-                top:  70px;
                 p{
                   writing-mode: vertical-rl;
                   font-size: $font4;
@@ -159,6 +157,23 @@
                   line-height: 4px;
                 }
             }
+
+
+      } 
+      .why1{            
+            top: 0px;
+            left:0px;
+
+            .food1{
+                position:absolute;
+                top: -20px;
+                left: 42px;                
+            }
+            .pbox{                
+                right: 211px;
+                left: 557px;
+                top:  70px;                
+            }
             .txt{
                 position:absolute;
                 top: -20px;
@@ -166,11 +181,7 @@
             }
 
       }
-      .why2{
-            background-color:$light2 ;
-            max-width:1024px ;
-            height:420px;
-            position:relative;
+      .why2{            
             top: 105px;
             left:0px;
             bottom: 0px;
@@ -180,21 +191,10 @@
                 top: -20px;
                 right: 42px;
             }
-            .pbox{
-                width:256px;
-                height:279.97px;
-                margin:0px;
-                position:absolute;
+            .pbox{                
                 right: 80.53px;
                 left: 55.5px;
-                top:  65px;
-                p{
-                  writing-mode: vertical-rl;
-                  font-size: $font4;
-                  color:$dark;
-                  float:right;
-                  line-height: 4px;
-                  }
+                top:  65px;                
             }
             .txt{
                 position:absolute;
@@ -216,55 +216,48 @@
             top:0px;
             left:42px;
 
-
-        .buy1{
-           width:300px;
-           height:434px;
-           position:relative;
-           float: left;
-
-            img{
+        .buy1,.buy2,.buy3{
+            width:300px;
+            height:434px;
+            position:relative;
+            float: left;
+            >img{
               position:absolute;
               top:0px;
               left:0px;
               float: left;
             }
-            .price{
+            >.price{
               width:300px;
               height:56px;
               position:absolute;
               top:315px;
               left: 0px;
               background-color: $light;
-
-              p{margin:0;
+              >p{margin:0;
                 position:relative;
                 top:14px;
                 left: 33px;
                 font-size: $font5;
                 color:$dark2;
                 font-family:$font-family-sans-serif;
-
               }
             }
-            .add{
+            >.addbtn{
               width:300px;
               height:65px;
               position:absolute;
               top:371px;
               left: 0px;
               background-color: $light2;
+              border: 0px;
+              padding: 0px;
 
-              p{margin:0;
-                position:relative;
-                top:16px;
-                left: 90px;
-                font-size: $font6;
-                color:$dark2;
-                font-family:$font-family-sans-serif;
-              }
+              font-size: $font6;
+              color:$dark2;
+              font-family:$font-family-sans-serif;              
             }
-            .tag{
+            >.tag{
               width:36px;
               height:106.73px;
               background-color:$dark2;
@@ -273,7 +266,7 @@
               left:20px;
               z-index:3;
 
-              p{margin:0;
+              >p{margin:0;
                 color:$light;
                 writing-mode: vertical-lr;
                 position:absolute;
@@ -286,168 +279,24 @@
               }
 
             }
-            .heart{
+            >.heart{
               color:$dark2;
-              position:absolute;
               top:19px;
-              left: 258px;
+              left: 258px; 
+              position:absolute;              
               z-index:3;
-            }
+            }    
         }
 
-        .buy2{
-           width:300px;
-           height:434px;
-           position:relative;
-           float: left;
+        .buy1{
+            
+        }
+        .buy2{           
            left:20px;
            padding-right: 20px;
-
-            img{
-              position:relative;
-              top:0px;
-            }
-            .price{
-              width:300px;
-              height:56px;
-              position:absolute;
-              top:315px;
-              left: 0px;
-              background-color: $light;
-
-              p{margin:0;
-                position:relative;
-                top:14px;
-                left: 33px;
-                font-size: $font5;
-                color:$dark2;
-                font-family:$font-family-sans-serif;
-
-              }
-            }
-            .add{
-              width:300px;
-              height:65px;
-              position:absolute;
-              top:371px;
-              left: 0px;
-              background-color: $light2;
-
-              p{margin:0;
-                position:relative;
-                top:16px;
-                left: 90px;
-                font-size: $font6;
-                color:$dark2;
-                font-family:$font-family-sans-serif;
-              }
-            }
-            .tag{
-              width:36px;
-              height:106.73px;
-              background-color:$dark2;
-              position:absolute;
-              top:0px;
-              left:20px;
-              z-index:3;
-
-              p{margin:0;
-                color:$light;
-                writing-mode: vertical-lr;
-                position:absolute;
-                left: 8px;
-                right:8px;
-                top:10.08px;
-                font-size: $font4;
-                font-family:$font-family-sans-serif;
-                letter-spacing: 5px;
-              }
-
-            }
-            .heart{
-              color:$dark2;
-              position:absolute;
-              top:19px;
-              left: 258px;
-              z-index:3;
-            }
         }
-
-        .buy3{
-           width:300px;
-           height:434px;
-           position:relative;
-           float:left;
-           left: 20px;
-           //margin-left: 20px;   //need to fix
-
-            img{
-              position:relative;
-              top:0px;
-            }
-            .price{
-              width:300px;
-              height:56px;
-              position:absolute;
-              top:315px;
-              left: 0px;
-              background-color: $light;
-
-              p{margin:0;
-                position:relative;
-                top:14px;
-                left: 33px;
-                font-size: $font5;
-                color:$dark2;
-                font-family:$font-family-sans-serif;
-              }
-            }
-            .add{
-              width:300px;
-              height:65px;
-              position:absolute;
-              top:371px;
-              left: 0px;
-              background-color: $light2;
-
-              p{margin:0;
-                position:relative;
-                top:16px;
-                left: 90px;
-                font-size: $font6;
-                color:$dark2;
-                font-family:$font-family-sans-serif;
-              }
-            }
-            .tag{
-              width:36px;
-              height:106.73px;
-              background-color:$dark2;
-              position:absolute;
-              top:0px;
-              left:20px;
-              z-index:3;
-
-              p{margin:0;
-                color:$light;
-                writing-mode: vertical-lr;
-                position:absolute;
-                left: 8px;
-                right:8px;
-                top:10.08px;
-                font-size: $font4;
-                font-family:$font-family-sans-serif;
-                letter-spacing: 5px;
-              }
-
-            }
-            .heart{
-              color:$dark2;
-              position:absolute;
-              top:19px;
-              left: 258px;
-              z-index:3;
-            }
+        .buy3{          
+           left: 20px;           
         }
 
       }

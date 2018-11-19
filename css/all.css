@@ -133,9 +133,20 @@
         font-size: 16px; }
 
 .container .main {
+  width: 940px;
+  height: 496px;
   position: relative;
   left: 42px;
   top: 0px; }
+  .container .main img {
+    background-image: url("https://bit.ly/2OhbMHr");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px; }
 
 .container .titlebox {
   width: 779.01px;
@@ -145,129 +156,93 @@
   right: 122px;
   top: -89px;
   bottom: 0px; }
-  .container .titlebox .title1 {
+  .container .titlebox .title1, .container .titlebox .title2, .container .titlebox .title3 {
     width: 259.67px;
     height: 256px;
-    background-color: rgba(255, 225, 128, 0.8);
-    float: left;
-    border: 1px solid white;
-    position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 2;
-    /*    img{
-              background-image:url('https://bit.ly/2R5tqwD');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
-              position: absolute;
-              top:0px;
-              left: 0px;
-              z-index: -1;
-               }
-        */ }
-    .container .titlebox .title1 p {
+    position: absolute;
+    float: left;
+    z-index: 2; }
+    .container .titlebox .title1 > div, .container .titlebox .title2 > div, .container .titlebox .title3 > div {
+      width: 259.67px;
+      height: 256px;
+      position: absolute;
+      float: left; }
+    .container .titlebox .title1 > p, .container .titlebox .title2 > p, .container .titlebox .title3 > p {
       font-size: 24px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      color: #3F5D45;
+      font-weight: 600;
+      letter-spacing: 8px;
       -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
       writing-mode: vertical-lr;
       margin: 0;
-      position: relative;
+      position: absolute; }
+    .container .titlebox .title1 > img, .container .titlebox .title2 > img, .container .titlebox .title3 > img {
+      background-size: cover;
+      background-position: center center;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1; }
+  .container .titlebox .title1 {
+    border-left: 1px solid white; }
+    .container .titlebox .title1 div {
+      background-color: rgba(255, 225, 128, 0.8);
+      top: 0px;
+      left: 0px; }
+    .container .titlebox .title1 img {
+      background-image: url("https://bit.ly/2R5tqwD");
+      top: 0px;
+      left: 0px; }
+    .container .titlebox .title1 p {
+      color: #3F5D45;
       top: 62.98px;
-      right: 115.29px;
-      bottom: 57.65px;
       left: 119.46px; }
   .container .titlebox .title2 {
-    width: 259.67px;
-    height: 256px;
-    background-color: rgba(63, 93, 69, 0.8);
-    float: left;
-    border: 1px solid white;
-    position: absolute;
-    top: 0px;
-    left: 259.67px;
-    z-index: 2;
-    /*    img{
-              background-image:url('https://bit.ly/2Dwoxd7');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
-              position: absolute;
-              top:0px;
-              left: 259.67px;
-              z-index: -1;
-              }
-      */ }
+    border-left: 1px solid white;
+    border-right: 1px solid white; }
+    .container .titlebox .title2 div {
+      background-color: rgba(63, 93, 69, 0.8);
+      top: 0px;
+      left: 259.67px; }
+    .container .titlebox .title2 img {
+      background-image: url("https://bit.ly/2Dwoxd7");
+      top: 0px;
+      left: 259.67px; }
     .container .titlebox .title2 p {
-      font-size: 24px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       color: #FFFFFF;
-      -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
-      margin: 0;
-      position: relative;
       top: 62.98px;
-      right: 120.29px;
-      bottom: 57.65px;
-      left: 119.46px; }
+      left: 377.13px; }
   .container .titlebox .title3 {
-    width: 259.67px;
-    height: 256px;
-    background-color: rgba(63, 93, 69, 0.8);
-    float: left;
-    border: 1px solid white;
-    position: absolute;
-    top: 0px;
-    left: 519.34px;
-    z-index: 2;
-    /*      img{
-              background-image:url('https://bit.ly/2OUteif');
-              filter: blur(5px);
-              width:100%;
-              height:100%;
-              position: absolute;
-              top:0px;
-              left: 519.34px;
-              z-index: -1;
-              }
-*/ }
+    border-right: 1px solid white; }
+    .container .titlebox .title3 div {
+      background-color: rgba(63, 93, 69, 0.8);
+      top: 0px;
+      left: 519.34px; }
+    .container .titlebox .title3 img {
+      background-image: url("https://bit.ly/2OUteif");
+      top: 0px;
+      left: 519.34px; }
     .container .titlebox .title3 p {
-      font-size: 24px;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
       color: #FFFFFF;
-      -webkit-writing-mode: vertical-lr;
-      -ms-writing-mode: tb-lr;
-      writing-mode: vertical-lr;
-      margin: 0;
-      position: relative;
       top: 62.98px;
-      right: 119.46px;
-      bottom: 57.65px;
-      left: 120.29px; }
+      left: 636.63px; }
 
-.container .why1 {
+.container .why1, .container .why2 {
   background-color: #EAF0ED;
   max-width: 1024px;
   height: 420px;
-  position: relative;
-  top: 0px;
-  left: 0px; }
-  .container .why1 .food1 {
-    position: absolute;
-    top: -20px;
-    left: 42px; }
-  .container .why1 .pbox {
+  position: relative; }
+  .container .why1 > .pbox, .container .why2 > .pbox {
     width: 256px;
     height: 279.97px;
     margin: 0px;
-    position: absolute;
-    right: 211px;
-    left: 557px;
-    top: 70px; }
-    .container .why1 .pbox p {
+    position: absolute; }
+    .container .why1 > .pbox p, .container .why2 > .pbox p {
       -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
@@ -275,16 +250,24 @@
       color: #8DA291;
       float: right;
       line-height: 4px; }
+
+.container .why1 {
+  top: 0px;
+  left: 0px; }
+  .container .why1 .food1 {
+    position: absolute;
+    top: -20px;
+    left: 42px; }
+  .container .why1 .pbox {
+    right: 211px;
+    left: 557px;
+    top: 70px; }
   .container .why1 .txt {
     position: absolute;
     top: -20px;
     right: 42.06px; }
 
 .container .why2 {
-  background-color: #EAF0ED;
-  max-width: 1024px;
-  height: 420px;
-  position: relative;
   top: 105px;
   left: 0px;
   bottom: 0px; }
@@ -293,21 +276,9 @@
     top: -20px;
     right: 42px; }
   .container .why2 .pbox {
-    width: 256px;
-    height: 279.97px;
-    margin: 0px;
-    position: absolute;
     right: 80.53px;
     left: 55.5px;
     top: 65px; }
-    .container .why2 .pbox p {
-      -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
-      font-size: 16px;
-      color: #8DA291;
-      float: right;
-      line-height: 4px; }
   .container .why2 .txt {
     position: absolute;
     top: -20px;
@@ -325,24 +296,24 @@
   position: relative;
   top: 0px;
   left: 42px; }
-  .container .buy .buy1 {
+  .container .buy .buy1, .container .buy .buy2, .container .buy .buy3 {
     width: 300px;
     height: 434px;
     position: relative;
     float: left; }
-    .container .buy .buy1 img {
+    .container .buy .buy1 > img, .container .buy .buy2 > img, .container .buy .buy3 > img {
       position: absolute;
       top: 0px;
       left: 0px;
       float: left; }
-    .container .buy .buy1 .price {
+    .container .buy .buy1 > .price, .container .buy .buy2 > .price, .container .buy .buy3 > .price {
       width: 300px;
       height: 56px;
       position: absolute;
       top: 315px;
       left: 0px;
       background-color: #FFFFFF; }
-      .container .buy .buy1 .price p {
+      .container .buy .buy1 > .price > p, .container .buy .buy2 > .price > p, .container .buy .buy3 > .price > p {
         margin: 0;
         position: relative;
         top: 14px;
@@ -350,22 +321,19 @@
         font-size: 20px;
         color: #3F5D45;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy1 .add {
+    .container .buy .buy1 > .addbtn, .container .buy .buy2 > .addbtn, .container .buy .buy3 > .addbtn {
       width: 300px;
       height: 65px;
       position: absolute;
       top: 371px;
       left: 0px;
-      background-color: #EAF0ED; }
-      .container .buy .buy1 .add p {
-        margin: 0;
-        position: relative;
-        top: 16px;
-        left: 90px;
-        font-size: 24px;
-        color: #3F5D45;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy1 .tag {
+      background-color: #EAF0ED;
+      border: 0px;
+      padding: 0px;
+      font-size: 24px;
+      color: #3F5D45;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+    .container .buy .buy1 > .tag, .container .buy .buy2 > .tag, .container .buy .buy3 > .tag {
       width: 36px;
       height: 106.73px;
       background-color: #3F5D45;
@@ -373,7 +341,7 @@
       top: 0px;
       left: 20px;
       z-index: 3; }
-      .container .buy .buy1 .tag p {
+      .container .buy .buy1 > .tag > p, .container .buy .buy2 > .tag > p, .container .buy .buy3 > .tag > p {
         margin: 0;
         color: #FFFFFF;
         -webkit-writing-mode: vertical-lr;
@@ -386,142 +354,14 @@
         font-size: 16px;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         letter-spacing: 5px; }
-    .container .buy .buy1 .heart {
+    .container .buy .buy1 > .heart, .container .buy .buy2 > .heart, .container .buy .buy3 > .heart {
       color: #3F5D45;
-      position: absolute;
       top: 19px;
       left: 258px;
+      position: absolute;
       z-index: 3; }
   .container .buy .buy2 {
-    width: 300px;
-    height: 434px;
-    position: relative;
-    float: left;
     left: 20px;
     padding-right: 20px; }
-    .container .buy .buy2 img {
-      position: relative;
-      top: 0px; }
-    .container .buy .buy2 .price {
-      width: 300px;
-      height: 56px;
-      position: absolute;
-      top: 315px;
-      left: 0px;
-      background-color: #FFFFFF; }
-      .container .buy .buy2 .price p {
-        margin: 0;
-        position: relative;
-        top: 14px;
-        left: 33px;
-        font-size: 20px;
-        color: #3F5D45;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy2 .add {
-      width: 300px;
-      height: 65px;
-      position: absolute;
-      top: 371px;
-      left: 0px;
-      background-color: #EAF0ED; }
-      .container .buy .buy2 .add p {
-        margin: 0;
-        position: relative;
-        top: 16px;
-        left: 90px;
-        font-size: 24px;
-        color: #3F5D45;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy2 .tag {
-      width: 36px;
-      height: 106.73px;
-      background-color: #3F5D45;
-      position: absolute;
-      top: 0px;
-      left: 20px;
-      z-index: 3; }
-      .container .buy .buy2 .tag p {
-        margin: 0;
-        color: #FFFFFF;
-        -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-        writing-mode: vertical-lr;
-        position: absolute;
-        left: 8px;
-        right: 8px;
-        top: 10.08px;
-        font-size: 16px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        letter-spacing: 5px; }
-    .container .buy .buy2 .heart {
-      color: #3F5D45;
-      position: absolute;
-      top: 19px;
-      left: 258px;
-      z-index: 3; }
   .container .buy .buy3 {
-    width: 300px;
-    height: 434px;
-    position: relative;
-    float: left;
     left: 20px; }
-    .container .buy .buy3 img {
-      position: relative;
-      top: 0px; }
-    .container .buy .buy3 .price {
-      width: 300px;
-      height: 56px;
-      position: absolute;
-      top: 315px;
-      left: 0px;
-      background-color: #FFFFFF; }
-      .container .buy .buy3 .price p {
-        margin: 0;
-        position: relative;
-        top: 14px;
-        left: 33px;
-        font-size: 20px;
-        color: #3F5D45;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy3 .add {
-      width: 300px;
-      height: 65px;
-      position: absolute;
-      top: 371px;
-      left: 0px;
-      background-color: #EAF0ED; }
-      .container .buy .buy3 .add p {
-        margin: 0;
-        position: relative;
-        top: 16px;
-        left: 90px;
-        font-size: 24px;
-        color: #3F5D45;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
-    .container .buy .buy3 .tag {
-      width: 36px;
-      height: 106.73px;
-      background-color: #3F5D45;
-      position: absolute;
-      top: 0px;
-      left: 20px;
-      z-index: 3; }
-      .container .buy .buy3 .tag p {
-        margin: 0;
-        color: #FFFFFF;
-        -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
-        writing-mode: vertical-lr;
-        position: absolute;
-        left: 8px;
-        right: 8px;
-        top: 10.08px;
-        font-size: 16px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        letter-spacing: 5px; }
-    .container .buy .buy3 .heart {
-      color: #3F5D45;
-      position: absolute;
-      top: 19px;
-      left: 258px;
-      z-index: 3; }
